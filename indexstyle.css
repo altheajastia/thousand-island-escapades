@@ -1,0 +1,216 @@
+/* Body background */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f0f8ff;   /* soft blue background */
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+.site-header {
+  text-align: center;
+  margin-bottom: 20px;
+  background-color: #006994;   /* deep blue */
+  color: #fff;
+  padding: 20px;
+  border-radius: 6px;
+}
+.site-header h1 {
+  color: #fff;                 /* white text on blue */
+}
+.site-header .tagline {
+  color: #e6f2ff;              /* lighter blue accent */
+}
+
+/* Hero section */
+.hero {
+  background: #cce7ff;         /* lighter blue */
+  padding: 20px;
+  border-radius: 6px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Attraction cards */
+.attraction {
+  background: #ffffff;
+  border: 1px solid #006994;   /* blue border */
+}
+
+/* Sidebar & Ad cards */
+.sidebar-card, .right-ad .ad-box {
+  background: #ffffff;
+  border: 1px solid #006994;
+}
+.ad-box {
+  background: #ffcc00;         /* bright yellow for ads */
+  color: #333;
+}
+.hero h2 {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+/* Bootstrap column alignment */
+.col-md-2 {
+  display: flex;
+}
+
+.col-md-8 {
+  display: flex;
+  justify-content: center;
+}
+
+/* Full page container: left sidebar, attractions, right ad */
+.page-container {
+  display: flex;
+  justify-content: space-between; /* left sidebar far left, right ad far right */
+  align-items: center;            /* vertically center all children (attractions + right ad) */
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Left sidebar */
+.left-sidebar {
+  width: 220px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;    /* sidebar content stays at top */
+}
+
+/* Center attractions wrapper */
+.center-wrapper {
+  flex: 1;
+  display: flex;
+  justify-content: center;        /* center attractions horizontally */
+}
+
+/* Attractions row */
+.attractions {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  max-width: 900px;               /* optional max width */
+}
+
+/* Attraction cards */
+.attraction {
+  flex: 1;
+  max-width: 180px;
+  min-width: 150px;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 20px;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+  text-align: center;
+  min-height: 250px;
+}
+
+/* Right ad box */
+.right-ad {
+  width: 220px;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;       /* horizontally center inside ad box */
+  align-items: center;           /* vertically center content */
+}
+
+.sidebar-card form input.form-control {
+  width: 100%;
+  max-width: 180px;        /* match sidebar width nicely */
+  padding: 8px 12px;       /* smaller padding for compact look */
+  border: 2px solid #006994;
+  border-radius: 6px;
+  margin-bottom: 10px;     /* small gap below search */
+  font-weight: 500;
+}
+
+/* Sidebar ad space */
+.sidebar-ad-space .ad-box {
+  width: 120px;             /* smaller width to leave more space */
+  height: 50px;             /* smaller height */
+  background: #ffcc00;
+  font-weight: bold;
+  border-radius: 6px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;           /* center in the sidebar */
+}
+
+/* Sidebar nav links container */
+.sidebar-card nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;      /* stack vertically */
+  gap: 10px;                   /* space between each link */
+  align-items: center;         /* center links horizontally */
+}
+
+/* Each nav link styling */
+.sidebar-card nav ul li {
+  width: 100%;                 /* make li full width */
+  max-width: 150px;            /* optional: limit box width */
+}
+
+.sidebar-card nav ul li a {
+  display: block;               /* make link fill li */
+  padding: 10px 15px;           /* spacing inside box */
+  text-align: center;           /* center text */
+  border: 2px solid #006994;    /* border around link */
+  border-radius: 6px;           /* rounded corners */
+  text-decoration: none;        /* remove underline */
+  color: #006994;               /* link color */
+  font-weight: bold;
+  transition: background 0.2s, color 0.2s;
+}
+
+/* Hover effect for links */
+.sidebar-card nav ul li a:hover {
+  background: #006994;
+  color: #fff;
+}
+
+/* Ads */
+.ad-box {
+  background: #ffcc00;
+  font-weight: bold;
+  margin-top: 15px;
+  border-radius: 6px;
+  padding: 15px;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  margin-top: 30px;
+  padding: 15px;
+  background: #f1f1f1;
+  border-top: 1px solid #ccc;
+}
+
+footer nav {
+  margin-bottom: 10px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #006994;
+  margin: 0 8px;   /* spaces links evenly */
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+.row {
+  display: flex;    /* force flexbox */
+  flex-wrap: nowrap; /* prevent stacking */
+  align-items: stretch;        /* equal height */
+}
