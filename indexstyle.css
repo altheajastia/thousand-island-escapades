@@ -211,3 +211,39 @@ footer a:hover {
   flex-wrap: nowrap; 
   align-items: stretch;        
 }
+
+.sidebar-card,
+.attraction {
+  background: #fff;
+  border: 1px solid #006994;
+  border-radius: 6px;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+  padding: 15px;
+  text-align: center;
+}
+
+.sidebar-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.attraction {
+  flex: 1;
+  max-width: 180px;
+  min-width: 150px;
+  min-height: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  color: inherit;
+}
+
+.attraction:hover,
+.sidebar-card nav ul li a:hover {
+  box-shadow: 4px 4px 12px rgba(0,0,0,0.2);
+  transform: translateY(-2px);
+  transition: all 0.2s ease-in-out;
+}
