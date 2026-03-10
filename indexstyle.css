@@ -6,19 +6,19 @@ body {
 }
 
 .hero {
-  background: #ffffff;             
-  border: 2px solid #006994;       
-  border-radius: 8px;               
-  padding: 25px;                    
-  margin: 20px auto;                
-  max-width: 900px;                 
+  background: #ffffff;              
+  border: 2px solid #006994;        
+  border-radius: 8px;              
+  padding: 20px;                    
+  margin: 20px auto;               
+  max-width: 180px;                 
   text-align: center;               
   box-shadow: 2px 2px 8px rgba(0,0,0,0.1); 
 }
 
 .hero h2 {
-  color: #006994;                   
-  font-size: 1.8rem;
+  color: #006994;
+  font-size: 1rem;                  
   margin: 0;
 }
 
@@ -266,4 +266,5 @@ footer a {
 footer a:hover {
   text-decoration: underline;
 }
+
 
