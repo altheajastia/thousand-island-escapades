@@ -282,3 +282,29 @@ footer a:hover {
   padding:12px 20px; border-radius:6px; font-weight:bold;
 }
 .contact-form button:hover { background:#004466; }
+
+.site-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  padding: 20px;
+  background-color: #006994;
+  color: #fff;
+  border-radius: 6px;
+}
+
+.site-logo {
+  height: 60px;
+  width: auto;
+}
+
+.site-title h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+.site-title .tagline {
+  font-size: 1rem;
+  color: #e6f2ff;
+}
