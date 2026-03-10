@@ -1,0 +1,106 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f0f8ff;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.site-header {
+  text-align: center;
+  background-color: #006994;
+  color: #fff;
+  padding: 20px;
+  border-radius: 6px;
+}
+.site-header h1 { margin: 0; }
+.site-header .tagline { color: #e6f2ff; }
+
+.page-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.left-sidebar, .right-ad {
+  width: 220px;
+  flex-shrink: 0;
+}
+.center-wrapper {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+.about-card {
+  background: #fff;
+  border: 1px solid #006994;
+  border-radius: 6px;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+  padding: 25px;
+  max-width: 600px;
+  line-height: 1.6;
+}
+.about-card h2 {
+  color: #006994;
+  margin-bottom: 15px;
+}
+.about-card p {
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.sidebar-card {
+  background: #fff;
+  border: 1px solid #006994;
+  border-radius: 6px;
+  padding: 15px;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+}
+.sidebar-card nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.sidebar-card nav ul li a {
+  display: block;
+  padding: 10px 15px;
+  text-align: center;
+  border: 2px solid #006994;
+  border-radius: 6px;
+  text-decoration: none;
+  color: #006994;
+  font-weight: bold;
+  transition: background 0.2s, color 0.2s;
+}
+.sidebar-card nav ul li a:hover {
+  background: #006994;
+  color: #fff;
+}
+.ad-box {
+  background: #ffcc00;
+  font-weight: bold;
+  border-radius: 6px;
+  padding: 15px;
+  text-align: center;
+  margin-top: 15px;
+}
+footer {
+  text-align: center;
+  margin-top: 30px;
+  padding: 15px;
+  background: #f1f1f1;
+  border-top: 1px solid #ccc;
+}
+footer a {
+  text-decoration: none;
+  color: #006994;
+  margin: 0 8px;
+}
+footer a:hover {
+  text-decoration: underline;
+}
