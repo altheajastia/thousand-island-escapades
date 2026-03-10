@@ -1,4 +1,3 @@
-/* Contact form card */
 .contact-form {
   background: #fff;
   border: 1px solid #006994;
@@ -45,7 +44,6 @@
   box-shadow: 0 0 6px rgba(0,105,148,0.4);
 }
 
-/* Submit button */
 .contact-form button {
   background: #006994;
   color: #fff;
