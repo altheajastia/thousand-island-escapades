@@ -256,10 +256,16 @@ footer a:hover {
   padding: 25px;
   max-width: 600px;
   line-height: 1.6;
+  margin: 0 auto;
 }
-.about-card h2 { color: #006994; margin-bottom: 15px; }
-.about-card p { margin-bottom: 15px; color: #333; }
-
+.about-card h2 {
+  color: #006994;
+  margin-bottom: 15px;
+}
+.about-card p {
+  margin-bottom: 15px;
+  color: #333;
+}
 .contact-form {
   background: #fff;
   border: 1px solid #006994;
@@ -308,3 +314,4 @@ footer a:hover {
   font-size: 1rem;
   color: #e6f2ff;
 }
+
