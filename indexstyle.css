@@ -78,6 +78,15 @@ body {
   align-items: center;
 }
 
+.sidebar-search input[type="text"] {
+  width: 180px;              
+  padding: 8px 12px;
+  border: 1px solid #006994; 
+  border-radius: 6px;
+  box-sizing: border-box;    
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.95rem;
+}
 
 .sidebar-card {
   background: #fff;
@@ -265,6 +274,7 @@ footer a {
 footer a:hover {
   text-decoration: underline;
 }
+
 
 
 
