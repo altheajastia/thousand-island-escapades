@@ -206,45 +206,45 @@ body {
 .contact-form {
   background: #fff;
   border: 1px solid #006994;
-  border-radius: 6px;
-  box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+  border-radius: 8px;
   padding: 25px;
-  max-width: 500px;
-  width: 100%;
-  line-height: 1.6;
+  max-width: 600px;
+  margin: 0 auto;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
 }
-.contact-form h2 {
-  color: #006994;
-  margin-bottom: 15px;
-  text-align: center;
-}
-.contact-form label {
-  display: block;
-  margin-bottom: 6px;
-  font-weight: bold;
-  color: #006994;
-}
+
 .contact-form input,
 .contact-form textarea {
   width: 100%;
-  padding: 10px 12px;
+  padding: 12px;
   margin-bottom: 15px;
-  border: 2px solid #006994;
+  border: 1px solid #ccc;
   border-radius: 6px;
+  box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
 }
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #006994;
+  outline: none;
+  box-shadow: 0 0 6px rgba(0,105,148,0.3);
+}
+
 .contact-form button {
   background: #006994;
   color: #fff;
   border: none;
-  padding: 12px 20px;
   border-radius: 6px;
-  font-weight: bold;
+  padding: 12px 20px;
+  font-size: 1rem;
   cursor: pointer;
-  width: 100%;
+  transition: background 0.3s;
 }
+
 .contact-form button:hover {
-  background: #004466;
+  background: #004d70;
 }
 
 footer {
@@ -265,5 +265,6 @@ footer a {
 footer a:hover {
   text-decoration: underline;
 }
+
 
 
