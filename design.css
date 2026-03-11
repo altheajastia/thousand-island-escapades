@@ -268,3 +268,28 @@ footer ul li a:hover
     flex-direction: column;
   }
 }
+.site-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  padding: 20px;
+  background-color: #006994;
+  color: #fff;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.site-header h1 {
+  margin: 0;
+  font-size: 2rem;
+  color: #fff;
+}
+.site-header .tagline {
+  font-size: 1rem;
+  color: #e6f2ff;
+}
+.site-logo {
+  height: 60px;
+  width: auto;
+}
